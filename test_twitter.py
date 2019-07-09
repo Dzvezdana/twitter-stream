@@ -7,6 +7,9 @@ from pyspark.sql import SQLContext
 from twitter_stream import TwitterStreamConnector
 from pyspark.sql import SQLContext
 
+"""
+Tests the sorting of the tweets data frame.
+"""
 class TestTwitter(PySparkTest):
     def test_basic(self):
         mock_list = [{"id": "1234",
