@@ -26,14 +26,17 @@ Navigate to twitter-stream directory and run the following command:
 python twitter_stream.py 
 ```
 
-**Note**: To use OAuth authentication add your Consumer pair Key and Access token secret to your ~/.bash_profile. You can obtain them here: http://dev.twitter.com/apps.
+**Note**: 
+Twitter API keys:
+To use OAuth authentication go to  http://dev.twitter.com/apps and create an application to get the 'consumer_key', 'consumer_secret', 'access_token_key' and 'access_token_secret'.
+Then set those values in your ~/.bash_profile.
 
 The application can be run as Docker container as well:
 ```
 docker build -t twitter_app .
 docker run twitter_app
 ```
-**Note**: Add your Consumer pair Key and Access token secret to the Dockerfile first.
+**Note**: Add your 'consumer_key', 'consumer_secret', 'access_token_key' and 'access_token_secret' to the Dockerfile first.
 
 ## Output
 The application writes the output in a file that is located at ./output_file/*.
