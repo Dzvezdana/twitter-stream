@@ -21,25 +21,25 @@ It supports baisc OAuth authentication and subscribes to the [Twitter Streaming 
 You can install the necessary libraries using *pip*.
 
 ## How to run
-Navigate to twitter-stream directory and run the following command:
+Navigate to the `twitter-stream` directory and run the following command:
 ```
 python twitter_stream.py 
 ```
 
-**Note**: 
-Twitter API keys:
-To use OAuth authentication go to  http://dev.twitter.com/apps and create an application to get the 'consumer_key', 'consumer_secret', 'access_token_key' and 'access_token_secret'.
-Then set those values in your ~/.bash_profile.
+**Note**: <br/>
+*Twitter API keys*
+To use OAuth authentication go to  http://dev.twitter.com/apps and create an application to get the `consumer_key`, `consumer_secret`, `access_token_key` and `access_token_secret`.
+Then set those values in your `~/.bash_profile`.
 
 The application can be run as Docker container as well:
 ```
 docker build -t twitter_app .
 docker run twitter_app
 ```
-**Note**: Add your 'consumer_key', 'consumer_secret', 'access_token_key' and 'access_token_secret' to the Dockerfile first.
+**Note**: Add your `consumer_key`, `consumer_secret`, `access_token_key` and `access_token_secret` to the Dockerfile first.
 
 ## Output
-The application writes the output in a file that is located at ./output_file/*.
+The application writes the output in a file that is located at `./output_file/*`.
 Sample output:
 
     id	text	created_at	username	user_screenname	user_id	user_created_at
