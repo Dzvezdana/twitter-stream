@@ -186,7 +186,7 @@ class TwitterStreamConnector:
         """
         df = ordered_df.withColumn("created_at", ordered_df["created_at"].cast(StringType()))
         df = df.withColumn("user_created_at", df["user_created_at"].cast(StringType()))
-        df.coalesce(1).write.format("csv").option("header", "true").mode("append").save("output_file.csv", sep="\t")
+        df.coalesce(1).write.format("csv").option("header", "true").mode("append").save("output_file", sep="\t")
 
 if __name__ == '__main__':
     ### Setup access credentials
