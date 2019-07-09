@@ -3,7 +3,7 @@
 ## Motivation
 
 The application is based on the requirements provided in [INSTRUCTIONS.md](https://github.com/Dzvezdana/twitter-stream/tree/master/INSTRUCTIONS.md).
-It supports baisc OAuth authentication and subscribes to the [Twitter Streaming API](https://developer.twitter.com/en/docs/tutorials/consuming-streaming-data). Then it:
+It supports basic OAuth authentication and subscribes to the [Twitter Streaming API](https://developer.twitter.com/en/docs/tutorials/consuming-streaming-data). Then it:
 + Filters messages that contain the keyword *"bieber"*.
 
 + Retrieves the incoming messages for 30 seconds or up to 100 messages, whichever comes first.
