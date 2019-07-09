@@ -2,7 +2,7 @@
 
 ## Motivation
 
-The application is created based on the requirements in [INSTRUCTIONS.md](https://github.com/Dzvezdana/twitter-stream/tree/master/INSTRUCTIONS.md).
+The application is based on the requirements in [INSTRUCTIONS.md](https://github.com/Dzvezdana/twitter-stream/tree/master/INSTRUCTIONS.md).
 The application supports baisc OAuth authentication and subscribes to the [Twitter Streaming API](https://developer.twitter.com/en/docs/tutorials/consuming-streaming-data). Then it:
 + Filters messages that contain the keyword *"bieber"*.
 
