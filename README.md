@@ -2,8 +2,8 @@
 
 ## Motivation
 
-The application is based on the requirements in [INSTRUCTIONS.md](https://github.com/Dzvezdana/twitter-stream/tree/master/INSTRUCTIONS.md).
-The application supports baisc OAuth authentication and subscribes to the [Twitter Streaming API](https://developer.twitter.com/en/docs/tutorials/consuming-streaming-data). Then it:
+The application is based on the requirements provided in [INSTRUCTIONS.md](https://github.com/Dzvezdana/twitter-stream/tree/master/INSTRUCTIONS.md).
+It supports baisc OAuth authentication and subscribes to the [Twitter Streaming API](https://developer.twitter.com/en/docs/tutorials/consuming-streaming-data). Then it:
 + Filters messages that contain the keyword *"bieber"*.
 
 + Retrieves the incoming messages for 30 seconds or up to 100 messages, whichever comes first.
@@ -21,7 +21,7 @@ The application supports baisc OAuth authentication and subscribes to the [Twitt
 You can install the necessary libraries using *pip*.
 
 ## How to run
-Navigate to twitter-stream and run the following command:
+Navigate to twitter-stream directory and run the following command:
 ```
 python twitter_stream.py 
 ```
